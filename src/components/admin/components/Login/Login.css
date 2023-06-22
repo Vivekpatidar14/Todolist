@@ -1,0 +1,68 @@
+
+._bg{
+    background:linear-gradient(to top,#146FB7 ,#BEE1FF);
+  }
+  .main_div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+  }
+    .form-box{
+        width:380px;
+        height:auto;
+        background-color:black;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        opacity:0.75;
+        border-radius:2%;
+    }
+    /* .adminlogin button{
+    margin-left: 134px;
+    } */
+    #basic-addon1{
+        font-size: 24px;
+        border-radius: 0;
+    }
+    .adminpass.modal-header{
+        border-bottom: 0;
+    }
+    button.forget{
+       float: right;
+    }
+    /* button.btn-secondary{
+    color: white;
+    background-color: #146FB7;
+    border: 1px solid #146FB7;
+    }
+    button.btn-secondary:hover{
+        color: #146FB7;
+        background-color:white;
+        border: 1px solid #146FB7;
+        } */
+.form-control.user{
+  border-radius: 0;
+  width: 121%;
+}
+.err{
+  color: red;
+  font-size: 12px;
+}
+
+.login_btn{
+  text-align: center;
+  margin: auto;
+}
+
+.login_btn button{
+  background-color: #146FB7;
+  color: #fff;
+  border: none;
+}
+
+.forpass p{
+  color: #fff !important;
+}
